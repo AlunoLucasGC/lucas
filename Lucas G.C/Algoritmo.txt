@@ -1,0 +1,242 @@
+
+Algoritmo Media 
+1-INICIO
+	Real Nota 1, nota 2, nota3, media
+	Escreva("Digita a primeira nota")
+	Leia("Nota 1")
+	Escreva("Digita a segunda nota")
+	Leia("Nota 2")
+	Escreva("Digita a terceira nota")
+	Media=(Nota 1 + Nota 2 + Nota3)/3
+	Escreva("A média é:" , media)
+2-FIM
+	 
+ALGORITMO "CONSUMO DO CARRO"	
+1-INICIO	
+ 	var real km,L,consumo carro
+ 	Escreva("Quantos km foram realizados?")
+	leia(km)
+	Escreva("quantos litros foram abastecidos?")
+	leia(L)
+	Consumo do carro<-km/L
+	Escreva("O carro consome por km é:, consumo do carro")
+	Fimalgoritmo
+
+1-INICIO
+	Inteiro valor1, valor2, resultado
+	Escreva("Digite o primeiro valor")
+	Ler(valor1)
+	Escreva("Digite o segundo valor")
+	Ler(valor2)
+	Resultado <-Valor1*valor2
+	Escrever ("Total: " , resultado)
+2-FIM
+
+
+ALGORITMO JUNTAR NOMES
+1- INICIO
+	Texto, nome, sobrenome
+	Escreva("Digite seu nome")
+	Leia(nome)
+	Escreva("Digite seu sobrenome")
+	Leia(sobrenome)
+	Escreva("seu nome completo é:", nome, sobrenome)
+2-FIM
+
+ALGORITMO DO QUADRADO
+1- INICIO
+	Real,área,lado
+	Escreva("digite valor do lado")
+	Leia(lado)
+	Area=("lado*lado")
+	Escreva("Resultado da multiplicação é", area)
+2-FIM
+ ALGORITMO DO TRIANGULO ISÓSCELES
+1-INICIO
+	Real,área,base,altura
+	Escreva("Digite valor da altura")
+	leia(altura)
+	Area=(Base*altura/2)
+	Escreva("Resultado da multiplicação é" , area)
+2-FIM
+
+ALGORITMO DO ANO LETIVO NA ESCOLA
+
+1-INICIO
+	Nota1, nota2, nota3, nota4,Média
+
+	Escreva("Digite a nota 1")
+	Leia(nota 1)
+	Escreva("Digite a nota2")
+	Leia(nota 2)
+	Escreva("Digite a nota3")
+	Leia(Nota3)
+	Escreva("Digite a nota4")
+	Leia(nota4)
+	Média=(nota1+nota2+nota3+nota4/4)
+	Exibir(Média)
+	Se média <= 60 
+	escreva("aprovado")
+	senao
+	escreva	("reprovado")
+	FIM		
+
+
+
+INICIO
+  	Inteiro Número10,Número100,Soma 
+
+	Escreva("Digite o primeiro valor")
+	Leia("Número10") 
+	Escreva("Digite o segundo valor")
+	Leia("Número100")
+	Soma=("Número10+Número100")
+	Escreva("A soma é:"  , soma)
+	Fim
+
+
+ALGORITMO DE NOME,IDADE 
+
+Texto Nome,
+Inteiro, Idade
+Escreva("Digite seu nome")
+Leia("Nome")  
+Escreva("Digite sua idade")
+Leia("Idade")
+Se (idade<13)
+Escreva("Você precisa ter pelo menos 13 anos para acessar")
+Se (Idade>13)
+Escreva("Permitir cookies?")
+Fim
+
+ALGORITMO DE IMPAR OU PAR
+
+INICIO 
+	Número 
+	Escreva("digite um número")
+	Leia("Número")
+	se("número/2 é exato")
+	Escreva(número par")
+	senão
+	escreva("número ímpar")
+	Fim
+
+
+ALGORITMO DE NOME E IDADE DE DUAS PESSOAS
+
+	Texto,Nome2 e Nome1, 
+	inteiro idade1, idade2, subtração
+	
+
+	Escreva("Digite o nome1")
+	Leia("Nome1")
+	Escreva("Digite o nome2")
+	Leia("Nome2")
+	Escreva("Digite a idade1")
+	Leia("Idade1")
+	Escreva("Digite a idade2")
+	Leia("idade2")	
+	Subtração=("Idade1-Idade2")
+	Escreva("A Diferença de idade é:" ,subtração, "Anos")
+	Fim
+
+ALGORITMO DOS GARÇONS
+	
+	Inteiro, multiplicação,valor,carga
+
+	Escreva("Digite o valor pago para cada garçom por hora")
+	Leia("Valor")
+	Escreva("Digite a quantidade de garçons")
+	Leia("Quantidade")
+	Escreva("Carga horária do graçom")
+	Leia("carga")
+	Multiplicação=("carga horária*Quantidade de garçons*9,50")
+	Escreva("O valor para cada garçom é:" , multiplicação, "valor")
+
+ALGORITMO PositivoNegativo
+
+	ValorDigitado Real
+	
+INICIO
+	Escreva("Digite um valor")
+	Ler(Valor Digitado)
+	Se(ValorDigitado>0)
+	Escreva("Positivo")
+	Senao
+	Escrever("Negativo")
+FIM
+
+ALGORITMO MEDIA ARITMÉTICA
+	  
+	Real Media1,Media2,Soma
+INICIO 
+	Media1=(8+9+7)/3
+	Media2=(4+5+6/3
+	Leia(Media1)
+	Soma= Media1 + Media2
+	Escreva("A Soma é: " , Soma)
+FIM
+
+
+
+	 ALGORITMO DOS 20
+	Real,ValorDigitado
+INICIO
+	Escreva("Digite um Valor")
+	Leia(ValorDigitado)
+	Se(Número>20)
+	Escreva("Maior que 20")
+	Se(Número=20)
+	Escreva("Igual a 20")
+	Se(Número<20)
+	Escreva("Menor que 20")
+FIM
+	ALGORITMO DOS 3 NÚMEROS 
+
+INICIO
+       Inteiro numero1, numero2, numero3
+	Escreva("Digite o primeiro valor")
+	Leia(numero1)
+	Escreva("Digita o segundo valor")
+	Leia(Numero2)
+	Escreva("Digita o terceiro valor")
+	Leia(Numero3)
+	Se(numero1>numero2 e numero1>numero3)
+	Escreva("o maior valor é o numero1")
+	Se(numero2>numero1 e numero2>numero3)
+	Escreva("O maior numero é o numero2")
+	Senao
+	Escreva("O maior numero é o numero3")
+FIM
+
+
+	ALGORITMO DE EMPRESA
+
+INICIO
+	Real, salário, prestação, Resultado
+	Escreva("Digite o número da prestação")
+	Leia(Prestação)
+	Escreva("Digite o valor do salário")
+	Leia(salário)
+	Salário=2500*20%="Resultado"
+	Resultado=Salário*20%
+	Se(Resultado>Prestação)
+	Escreva("EMPRESTIMO NÃO PODE SER CONCEDIDO")
+	Senao
+	Escreva("EMPRESTIMO PODE SER CONCEDIDO")
+FIM
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
